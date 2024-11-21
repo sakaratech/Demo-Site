@@ -1,0 +1,167 @@
+@media only screen and (max-width:980px){
+    .menu nav{
+        display:none;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    #bars{
+        display: block;
+    }
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagecontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagebox{
+        width: 70%;
+    }
+    .comment{
+        flex-direction: column;
+        align-items: center;
+    }
+    .commentbox{
+        width: 60%;
+    }
+    .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-col{
+        width: 75%;
+    }
+    .contact-col{
+        width: 75%;
+    }
+    .box{
+        width: 50%;
+    }
+    .box2{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:662px){
+    .description{
+        margin-top: 50px;
+    }
+    .commentbox{
+        width: 75%;
+    }
+    .imagetext{
+        width:80%;
+    }
+    .clients h2{
+        font-size: 30px;
+    }
+    .statistics h2{
+        font-size: 30px;
+    }
+    .call h2{
+        font-size: 25px;
+    }
+    footer{
+        height: 900px;
+    }
+    .footerlinks a{
+        display: block;
+    }
+    .believe p{
+        padding: 10px 25px;
+    }
+}
+
+@media only screen and (min-width:568px){
+    
+    .mobile-menu a{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .mobile-menu i{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .box{
+        width:80%;
+    }
+    .imagebox{
+        margin-top: 50px;
+    }
+    .imagebox img{
+        height: 200px;
+    }
+    .mobile-menu a{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .mobile-menu i{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .imagetext{
+        width:87%;
+    }
+    .imagetext h2{
+        font-size: 28px;
+    }
+    .imagetext p{
+        text-align: justify;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .box2{
+        width:80%;
+    }
+    .imagebox{
+        width: 85%;
+    }
+    .imagebox p{
+        padding: 0px 15px;
+    }
+    .commentbox{
+        width: 85%;
+    }
+    .about-col img{
+        margin-top: 50px;
+    }
+    .statisticscontainer{
+        grid-template-columns: repeat(2, 130px);
+        grid-template-rows: repeat(2, 130px);
+    }
+    .statisticsbox h3{
+        font-size: 30px;
+    }
+    .about-col{
+        width: 90%;
+    }
+    .about-col img{
+        height: 200px;
+    }
+    .about-col h2{
+        font-size: 30px;
+    }
+    .trust h2{
+        font-size: 30px;
+    }
+    .holder h2{
+        font-size: 32px;
+    }
+    .believe p{
+        text-align: justify;
+    }
+    .contact-col{
+        width: 85%;
+    }
+    .clients h2{
+        font-size: 28px;
+    }
+}
